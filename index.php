@@ -1,14 +1,6 @@
 <?php
     include ("header.php");
 ?>
-        <!-- inicio de wave -->
-
-        <!-- <div class="bg_color"></div>
-        <div class="wave w1"></div> -->
-        <!-- <div class="wave w2"></div> -->
-        <!-- end de wave -->
-
-        <!-- Carousel Start -->
 
         <div class="carousel">
             <div class="container-fluid">
