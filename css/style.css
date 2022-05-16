@@ -833,12 +833,13 @@ a:focus {
 }
 
 .team .team-img img {
-    width: 100%;
+    /* era 100 pero lo bajamos */
+    width: 88%;
 }
 
 .team .team-text {
     position: absolute;
-    width: calc(100% - 30px);
+    width: calc(88% - 30px);
     height: 96px;
     bottom: -46px;
     left: 15px;
