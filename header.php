@@ -76,6 +76,7 @@
                         <a href="index.php" class="nav-item nav-link <?=($_SERVER["REQUEST_URI"] == '/index.php')? 'active': ''?>">Inicio</a>
                         <a href="nosotros.php" class="nav-item nav-link <?=($_SERVER["REQUEST_URI"] == '/nosotros.php')? 'active': ''?>">Acerca de Nosotros</a>
                         <a href="agentes.php" class="nav-item nav-link <?=($_SERVER["REQUEST_URI"] == '/agentes.php')? 'active': ''?>">Agentes Acreditados</a>
+                        <a href="acreditados.php" class="nav-item nav-link <?=($_SERVER["REQUEST_URI"] == '/acreditados.php')? 'active': ''?>">Como acreditarte</a>
                         <!-- <a href="#" class="nav-item nav-link">Servicios</a>
                         <a href="#" class="nav-item nav-link">Caracteristicas</a>
                         <a href="#" class="nav-item nav-link">Tutor</a>
