@@ -73,20 +73,21 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.php" class="nav-item nav-link active">Inicio</a>
-                        <a href="#" class="nav-item nav-link">Acerca de Nosotros</a>
-                        <a href="#" class="nav-item nav-link">Servicios</a>
+                        <a href="index.php" class="nav-item nav-link <?=($_SERVER["REQUEST_URI"] == '/index.php')? 'active': ''?>">Inicio</a>
+                        <a href="nosotros.php" class="nav-item nav-link <?=($_SERVER["REQUEST_URI"] == '/nosotros.php')? 'active': ''?>">Acerca de Nosotros</a>
+                        <a href="agentes.php" class="nav-item nav-link <?=($_SERVER["REQUEST_URI"] == '/agentes.php')? 'active': ''?>">Agentes Acreditados</a>
+                        <!-- <a href="#" class="nav-item nav-link">Servicios</a>
                         <a href="#" class="nav-item nav-link">Caracteristicas</a>
                         <a href="#" class="nav-item nav-link">Tutor</a>
-                        <a href="#" class="nav-item nav-link">Revisar</a>
-                        <div class="nav-item dropdown">
+                        <a href="#" class="nav-item nav-link">Revisar</a> -->
+                        <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Paginas</a>
                             <div class="dropdown-menu">
                                 <a href="#" class="dropdown-item">Página de Blog</a>
                                 <a href="#" class="dropdown-item">Única página</a>
                             </div>
-                        </div>
-                        <a href="#" class="nav-item nav-link">Contactos</a>
+                        </div> -->
+                        <!-- <a href="#" class="nav-item nav-link">Contactos</a> -->
                     </div>
                 </div>
             </div>
